@@ -406,20 +406,20 @@
   }
   
   .section {
-    padding: var(--section-padding);
+      padding: var(--section-padding);
   }
 
   .section-header {
-    padding: var(--section-body-padding);
+      padding: var(--section-header-padding);
   }
-
+  
   .section-body {
-    padding: var(--section-body-padding);
+      padding: var(--section-body-padding);
   }
-
+  
   .section-footer {
-    text-align: var(--section-footer-align);
-    padding: var(--section-body-padding);
+      text-align: var(--section-footer-align);
+      padding: var(--section-footer-padding);
   }
 
   .section-title {
@@ -438,11 +438,15 @@
   }
 
   .container {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
   }
-  
+
+  .footer {
+      padding: var(--footer-padding);
+  }
+
   :root {
       --color-primary: #d73953;
       --color-black: #090909;
